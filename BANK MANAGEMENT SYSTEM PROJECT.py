@@ -6,7 +6,7 @@ pd.options.mode.chained_assignment=None #To avoid setting with copy warning
 print('                           |BANK MANAGEMENT SYSTEM|                 ')
 print('________________________________________________________________________________________')
 print()
-print('                       ~ WELCOME!TO ___ BANK OF ___ ~               ')
+print('                       ~ WELCOME!TO HIGHER BANK OF INDIA ~               ')
 print('________________________________________________________________________________________')
 
 j='Y'
@@ -19,7 +19,7 @@ while j=='Y' or j=='y':
      n=int(input('ENTER YOUR REQUEST(1,2):'))
      print()
 
-     df = pd.read_csv(r"G:\Bank Management System\bank management.csv")
+     df = pd.read_csv(r"paste here your csv file location link")
      df = df[['NAME','ACCOUNT_NO','TOTAL_AMOUNT','AADHAR_NO','PAN','FATHER_NAME','MOTHER_NAME','PHONE','PASSWORD']]
      if n==1:
         print("*****Please fill the below form carefully*****")
@@ -216,7 +216,7 @@ while j=='Y' or j=='y':
                    print('-----------------------------------------------')
                    amount=int(input('ENTER YOUR AMOUNT TO DEPOSIT:'))
                    df['TOTAL_AMOUNT'].iloc[index]=df.loc[index,'TOTAL_AMOUNT']+amount
-                   df.to_csv(r"G:\Bank Management System\bank management.csv")
+                   df.to_csv(r"paste here your csv file location link")
                    print()
                    print('RS.',amount,'/- IS CREDITED TO YOUR ACCOUNT SUCCESSFULLY!')
                    print()
@@ -299,14 +299,9 @@ while j=='Y' or j=='y':
      j=input('Do you want to continue?(Y/N):')
 else:
      print('Thanks For Visiting Here!')
-     exit()   
-   
+     exit()
 
-#This project is created for learning purpose ,its open source but copying and pasting project is not learning. So,learn and create your own.
-#Follow us on Github( finalboss77 ) for more projects.
-
-
-
+#Created By Piyush Kumar
 
 
 
