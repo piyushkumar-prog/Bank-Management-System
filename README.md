@@ -26,9 +26,11 @@ Python: The primary programming language used to create the functionalities of t
 
 
 Data Storage:
+
 The system stores account data on local storage in a CSV file.
 
 
-Contributing
+Contributing:
+
 We encourage contributions to this project! Feel free to fork the repository, add new features (e.g., Viewing transaction history, printing statements), improve the program's logic or efficiency, and submit a pull request for review and potential merging.
 
